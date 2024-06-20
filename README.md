@@ -84,7 +84,6 @@ The current program deals with these by warning the user to input a new destinat
 - The buffer size should be adequate to the operations. If its too big then we encounter an increase in memory usage without any gains in terms of performance. If its too small then we may encounter errors due to having the same hash outputs for instance. Optimal sizes range between 8 to 64 KB. It is hard-coded to be 65536 bytes. For instance, if we are dealing with files that are 10KB, as many as they be, having a buffer of 45KB is suboptimal. 
 - As requested in the task document only events ("created", "copied" and "removed") related to files are logged and outputted in the command prompt.  
 - Infrastructure-wise, it is assumed that the job is on an 24/7 powered-on computer or server.
-- Although the virtual environem
 
 # Future Work
 - Higher level of scheduling detail. 
