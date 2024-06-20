@@ -47,44 +47,28 @@
 - The python version used throughout this project was Python 3.12.4.
 
 # Tree
+```
 Test_Task
 ├───docs
-
 │       README.md
-
 │       Redundancy.odp
-
 │       requirements.txt
-
 │
-
 ├───src
-
 │   │   base_functions.py
-
 │   │   main.py
-
 │   │   redundancy.py
-
 │   │
-
 │   └───__pycache__
-
 │
-
 └───tests
-
     │   README.txt.txt
-    
     │   redundancy.log
-   
     │   runme.bat
-    
     │   runme.sh
-    
     │
-    
     └───dir
+```
 
 # How To Run
 - To deploy a replication job, one needs to headover to the command prompt or termainal, (ideally) activate the virtual environment and run 
