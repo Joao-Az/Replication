@@ -49,23 +49,41 @@
 # Tree
 Test_Task
 ├───docs
+
 │       README.md
+
 │       Redundancy.odp
+
 │       requirements.txt
+
 │
+
 ├───src
+
 │   │   base_functions.py
+
 │   │   main.py
+
 │   │   redundancy.py
+
 │   │
+
 │   └───__pycache__
+
 │
+
 └───tests
+
     │   README.txt.txt
+    
     │   redundancy.log
+   
     │   runme.bat
+    
     │   runme.sh
+    
     │
+    
     └───dir
 
 # How To Run
