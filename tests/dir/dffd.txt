@@ -1,0 +1,11 @@
+Extra line 
+hashes of file in source and file in destination should be different due to this text.
+It should also mean that the program will acknowledge that indeed two files named file exist (one in dir and another in dir1) and that their hashes are different. Meaning that file will be copied over and thus writejniuniniuniun
+
+
+ the message copied in the log file.
+
+
+sdfsdfsd
+
+df sdf dsf sdf 
