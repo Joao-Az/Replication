@@ -72,7 +72,7 @@ Test_Task
 
 # How To Run
 - To deploy a replication job, one needs to headover to the command prompt or termainal, (ideally) activate the virtual environment and run 
-``python .\main.py <source_directory> <destination_directory> <time_step> <time_unit> <log_path>``
+``python <relative_path>\main.py <source_directory> <destination_directory> <time_step> <time_unit> <log_path>``
 - If folder names have spaces in them, the user is required to enter the path in quotes. Otherwise, the program will assume each section divided by a space as being a positional argument. 
 - Here, time_step is an integer and time_unit is either the "seconds", "minutes", "hours", "days" or "weeks".
 
