@@ -43,7 +43,8 @@
 - Business use case presentation. 
 
 # Dependencies
-- The dependencies (or rather dependency) are already integrated within the virtual environment, however, one can refer to them through the requirements.txt;
+- The dependencies can be refered through the requirements.txt;
+    - schedule == 1.2.2 
 - The python version used throughout this project was Python 3.12.4.
 
 # Tree
@@ -71,8 +72,7 @@ Test_Task
 ```
 
 # How To Run
-- To deploy a replication job, one needs to headover to the command prompt or termainal, (ideally) activate the virtual environment and run 
-``python <relative_path>\main.py <source_directory> <destination_directory> <time_step> <time_unit> <log_path>``
+- ``python <relative_path>\main.py <source_directory> <destination_directory> <time_step> <time_unit> <log_path>``
 - If folder names have spaces in them, the user is required to enter the path in quotes. Otherwise, the program will assume each section divided by a space as being a positional argument. 
 - Here, time_step is an integer and time_unit is either the "seconds", "minutes", "hours", "days" or "weeks".
 
@@ -86,7 +86,9 @@ The current program deals with these by warning the user to input a new destinat
 - Infrastructure-wise, it is assumed that the job is on an 24/7 powered-on computer or server.
 
 # Future Work
-- Higher level of scheduling detail. 
+- Higher level of scheduling detail.
+- Capability of accepting more than one destination folder.
+- Create two virtual environments that accounts for the current and future dependencies: one Unix based and one Windows based.
 
 
 
